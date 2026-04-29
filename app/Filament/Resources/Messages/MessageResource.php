@@ -20,11 +20,11 @@ class MessageResource extends Resource
 
     protected static ?string $modelLabel = 'Mensaje';
 
-    protected static ?string $pluralModelLabel = 'Mensajes';
+    protected static ?string $pluralModelLabel = 'Log de Mensajes';
 
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-queue-list';
 
-    protected static string|UnitEnum|null $navigationGroup = 'Bot';
+    protected static string|UnitEnum|null $navigationGroup = 'Automatización WhatsApp';
 
     public static function form(Schema $schema): Schema
     {
