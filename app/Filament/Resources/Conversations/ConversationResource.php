@@ -21,13 +21,13 @@ class ConversationResource extends Resource
 {
     protected static ?string $model = Conversation::class;
 
-    protected static ?string $modelLabel = 'Conversación';
+    protected static ?string $modelLabel = 'Chat';
 
-    protected static ?string $pluralModelLabel = 'Conversaciones';
+    protected static ?string $pluralModelLabel = 'Chats en Vivo';
 
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
-    
-    protected static string|UnitEnum|null $navigationGroup = 'Bot';
+
+    protected static string|UnitEnum|null $navigationGroup = 'Automatización WhatsApp';
 
     public static function form(Schema $schema): Schema
     {
