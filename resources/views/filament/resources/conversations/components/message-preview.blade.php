@@ -20,10 +20,10 @@
 
         <div @class([
             'text-[12.8px] font-medium mb-0.5',
-            'text-[#128C7E]' => !$isUser,
+            'text-[#6233a4]' => !$isUser,
             'text-blue-700' => $isUser,
         ])>
-            {{ $isUser ? 'Usuario' : 'Sistema' }}
+            {{ $isUser ? 'Usuario' : 'Asistente Virtual' }}
         </div>
 
         <div class="text-[14.2px] text-[#111b21] leading-[19px] break-words">
